@@ -1,2 +1,2 @@
 # WeightTracker
-App for tracking weight
+App for tracking weight.
