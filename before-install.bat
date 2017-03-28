@@ -2,7 +2,7 @@ REM Install Internet Information Server (IIS).
 :: stop IIS server
 net stop w3svc /Y
 ::Waiting for other services to start
-timeout /T 10 /NOBREAK
+timeout /T 10 /NOBREAK >NUL
 Msg * "insert your message here"  Testiranje
 ::starting IIS
 net start w3svc /Y
